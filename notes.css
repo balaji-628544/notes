@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    border:0px;
+    
+}
+body{
+    background: linear-gradient(to right,#6666cc,pink);
+    display: flex;
+    justify-content: center;
+    
+}
+.parent1{
+    
+    width:500px;
+    padding-top:10%;
+}
+.notes1{
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+}
+.btn{
+    background-color: rgb(244, 235, 244);
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    height:100%;
+    width:100%;
+    position:relative;
+    background-color: white;
+    border-radius:10px;
+    margin-top: 20px;
+    padding:10px;
+    box-sizing:border-box;
+
+}
+.delete1{
+    height:25px;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    cursor: pointer;
+}
